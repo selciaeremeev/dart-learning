@@ -7,11 +7,13 @@ void main() {
   String ex_string = "test";
   List ex_list = ["t", "e", "s", "t"];
   Map ex_map = {"hello": "world"};
+  dynamic exx_string = "test";
   print("num: " + ex_num.toString());
   print("int: " + ex_int.toString());
   print("double: " + ex_double.toString());
   print("bool: " + ex_bool.toString());
   print("String: " + ex_string);
+  print("String (dynamic): " + exx_string);
   print("List: " + ex_list.toString());
   print("Map: " + ex_map["hello"]);
 }
